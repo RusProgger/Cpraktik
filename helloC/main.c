@@ -5,13 +5,13 @@
 
 
 int main() {
-	int a;
+	unsigned int a;
 	char name = 'x';
 	printf("Exit programms = '0'\n");
-	//scanf("%d", &a); // небозопасный вариант
+	//scanf("%d", &a); // Г­ГҐГЎГ®Г§Г®ГЇГ Г±Г­Г»Г© ГўГ Г°ГЁГ Г­ГІ
 	do {
 		printf("\nEnter number: ");
-		scanf_s("%d", &a); // более безопасный вариант рекомендуется
+		scanf_s("%d", &a); // ГЎГ®Г«ГҐГҐ ГЎГҐГ§Г®ГЇГ Г±Г­Г»Г© ГўГ Г°ГЁГ Г­ГІ Г°ГҐГЄГ®Г¬ГҐГ­Г¤ГіГҐГІГ±Гї
 
 		if (a == 0) {
 			printf("Exit...");
