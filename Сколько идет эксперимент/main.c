@@ -12,6 +12,7 @@ int main() {
     
     */
 
+
     int h, m, res_hour, res_second;
     printf("Enter Hour: ");
     scanf("%d", &h); // час
@@ -27,6 +28,8 @@ int main() {
     printf("Минут: %d\n", res_hour);
     printf("Секунд: %d", res_second);
 
+    getchar(); // задержка окна
+    getchar(); 
 
     return 0;
 }
