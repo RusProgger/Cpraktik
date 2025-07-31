@@ -12,8 +12,14 @@ int main() {
     
     */
 
-    
+    int h, m;
+    printf("Enter Hour: ");
+    scanf("%d", &h); // час
 
+    printf("Enter minutes: ");
+    scanf("%d", &m); // минут
+
+    
 
     return 0;
 }
