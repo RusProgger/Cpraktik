@@ -12,14 +12,21 @@ int main() {
     
     */
 
-    int h, m;
+    int h, m, res_hour, res_second;
     printf("Enter Hour: ");
     scanf("%d", &h); // час
 
     printf("Enter minutes: ");
     scanf("%d", &m); // минут
 
-    
+    res_hour = (h * 60) + m;
+    res_second = (h * 60 + m) * 60;
+
+    // вывод 
+
+    printf("Минут: %d\n", res_hour);
+    printf("Секунд: %d", res_second);
+
 
     return 0;
 }
