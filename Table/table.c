@@ -1,9 +1,11 @@
-#include <stdlib.h>
+//#include <stdlib.h>
 #include <stdio.h>
+
+
 int main() {
 
     int tableN;
-    int tableMax = 4;
+    const int tableMax = 4;
 
     scanf("%d", &tableN);
 
