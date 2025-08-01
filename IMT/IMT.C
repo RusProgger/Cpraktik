@@ -30,7 +30,6 @@ int main() {
     // цикл 
     do {
         // вызов функции рост
-        
         TextmessageHeight();
 
         scanf("%f", &height);
