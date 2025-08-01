@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "IMT.C": "cpp"
+        "IMT.C": "cpp",
+        "stdlib.h": "c"
     }
 }
