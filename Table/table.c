@@ -2,6 +2,9 @@
 
 int main() {
 
+    int tableN;
+    int tableMax = 4;
+
     
 
 
