@@ -16,7 +16,7 @@ int main() {
     printf("Enter Hour: ");
     scanf("%d", &h); // час
 
-    printf("Enter minutes: ");
+    printf("Enter minutes: "); // Ввод минус
     scanf("%d", &m); // минут
 
     res_hour = (h * 60) + m;
