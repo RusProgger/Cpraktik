@@ -64,6 +64,5 @@ int main() {
     } while(true);
 
     getchar();
-    getchar();
     return 0;
 }
