@@ -13,5 +13,6 @@ int main() {
 
     printf("%d", titleTable);
 
+    getchar();
     return 0;
 }
