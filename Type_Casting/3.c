@@ -9,7 +9,14 @@
 
 
 int main() {
-    
+    int numberUser;
+    printf("Enter number: ");
+    scanf("%d", &numberUser);
+
+    // вывод
+
+    printf("Number: %d\n", numberUser);
+    printf("Number code symbol: %c\n", numberUser);
 
     return 0;
 }
