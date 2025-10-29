@@ -7,7 +7,6 @@
 
 */
 
-
 int main() {
     int numberUser;
     printf("Enter number: ");
