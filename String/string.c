@@ -29,8 +29,14 @@ int main() {
 
     char text[51] = "Hello";
 
-    printf("Длина строки: %lu", strlen(text));
+    printf("Длина строки: %lu\n", strlen(text));
 
+
+    // задача 2
+
+    char str[] = "Programming";
+    str[10] = 'G';
+    printf("%s\n", str);
 
     getchar(); // задержка
     return 0;
