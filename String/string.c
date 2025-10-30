@@ -38,6 +38,17 @@ int main() {
     str[10] = 'G';
     printf("%s\n", str);
 
+
+    // вывод последнего символа
+
+    char title[] = "Hello";
+    // обращаемся к последнему символу 
+     printf("%c\n", title[strlen(title) - 1]);
+    // вывод
+    printf("%s\n", title);
+
+
+
     getchar(); // задержка
     return 0;
 }
