@@ -10,8 +10,10 @@ int main() {
     printf("%.7f\n", fn1); // float округляет только до 7 цифр. 
 
 
-    
+    double numberBig = 6.257366568543;
 
+    printf("%.12f\n", numberBig);
+ 
 
     return 0;
 }
