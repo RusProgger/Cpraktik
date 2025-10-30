@@ -32,7 +32,7 @@ int main() {
     printf("Длина строки: %lu\n", strlen(text));
 
 
-    // задача 2
+    // задача 2 Змена последнего символа. 
 
     char str[] = "Programming";
     str[10] = 'G';
