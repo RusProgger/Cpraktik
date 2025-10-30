@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
 
@@ -14,7 +15,23 @@ int main() {
 
     printf("%s\n", ok);
 
-    printf("%s", name);
+    printf("%s\n", name);
+
+    /*
+    
+    Напиши программу, которая:
+
+    Вводит строку (до 50 символов).
+
+    Выводит её длину с помощью strlen.
+    
+    */
+
+    char text[51] = "Hello";
+
+    printf("Длина строки: %lu", strlen(text));
+
+
     getchar(); // задержка
     return 0;
 }
