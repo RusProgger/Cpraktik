@@ -48,6 +48,23 @@ int main() {
     printf("%s\n", title);
 
 
+    // добавление символов
+
+    // способ первый использование указателей 
+
+    const char* text1 = "Hello";
+    const char* text2 = "World";
+
+    // вывод 
+
+    printf("%s %s\n", text1, text2);
+
+    // способ 2 использование strcat
+
+    char textInfo[40] = "My";
+    strcat(textInfo, " name is Alex!");
+    printf("%s\n", textInfo);
+
 
     getchar(); // задержка
     return 0;
