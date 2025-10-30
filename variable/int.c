@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <limits.h>
 
 // тип int занимает 4 байта
+
+
 
 int main() {
 
@@ -23,12 +26,22 @@ int main() {
 
     // добавить ввод от пользователя с помощью scanf, чтобы программа не просто выводила числа, а принимала их и считала что-то (например, сумму или произведение).
 
+    
+
     int numberUser;
     printf("Input number: ");
 
     scanf("%d", &numberUser);
 
     printf("Number - %d\n", numberUser);
+
+    printf("Max number int: %d\n", INT_MAX); // для max int
+
+    printf("Min number int: %d\n", INT_MIN); // для min int
+
+    printf("Max number long long int: %lld\n", LLONG_MAX); // для long long max int
+
+    printf("Min number long long int: %lld\n", LLONG_MIN); // для long long min int
 
     return 0;
 }
