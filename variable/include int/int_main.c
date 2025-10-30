@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-static int number = 10000;
+int number = 10000; // со static переменная будет видна только в одном текущем файле.
 
 int main() {
 
