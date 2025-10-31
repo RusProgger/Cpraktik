@@ -20,14 +20,14 @@ int main() {
     // Справшиваем у пользователя количество. 
 
     printf("Enter number: ");
-    scanf("%d", &size);
+    scanf_s("%d", &size);
 
     // выделяем память
 
     int* arrs = malloc(size * sizeof(int));
 
     for(int i =0; i < size; i++) {
-        scanf("%d", &arrs[i]);
+        scanf_s("%d", &arrs[i]);
     }
 
     // вывод массива 
