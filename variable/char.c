@@ -19,6 +19,16 @@ int main() {
 
     printf("Name user: %s\n", name); // вывод Denis
 
+    char symbol = 'D';
+
+    printf("%c\n", symbol); // вывод D
+
+    // изменим символ
+
+    symbol = 'F';
+
+    printf("%c\n", symbol);
+
     // попробудем изменить символ. 
 
     // name[2] = 'm'; // ошибка попытка изменить литерал строки, приводит к ошибке
