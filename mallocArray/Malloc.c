@@ -10,10 +10,16 @@ int main() {
 
     int* arrs = malloc(sizeNumber * sizeof(int));
 
+    for(int i = 0; i < sizeNumber; i++) {
+        printf("Enter number array: %d ", i + 1);
+        scanf_s("%d", &arrs[i]);
+    }
+
+
 
     // освобождение памяти
     free(arrs);
-    
+
     // обнуление указателя
     arrs = NULL;
     return 0;
