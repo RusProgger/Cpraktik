@@ -43,5 +43,7 @@ int main() {
 
     printf("Min number long long int: %lld\n", LLONG_MIN); // для long long min int
 
+    
+
     return 0;
 }
