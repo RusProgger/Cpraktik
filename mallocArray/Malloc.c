@@ -15,6 +15,9 @@ int main() {
         scanf_s("%d", &arrs[i]);
     }
 
+    for(int j = 0; j < sizeNumber; j++) {
+        printf("Array[%d]: %d\n", j + 1, arrs[j]);
+    }
 
 
     // освобождение памяти
