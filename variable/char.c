@@ -29,6 +29,10 @@ int main() {
 
     printf("%c\n", symbol);
 
+    char system[] = "Hello, OS System";
+
+    printf("%c\n", system[2]);
+
     // попробудем изменить символ. 
 
     // name[2] = 'm'; // ошибка попытка изменить литерал строки, приводит к ошибке
