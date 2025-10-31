@@ -3,10 +3,10 @@
 
 int main() {
 
-    long int sizeNumber; 
+    long long int sizeNumber; 
 
     printf("Enter number: ");
-    scanf_s("%ld", &sizeNumber);
+    scanf_s("%lld", &sizeNumber);
 
     long long int* arrs = malloc(sizeNumber * sizeof(long long int));
 
