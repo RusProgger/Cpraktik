@@ -13,6 +13,8 @@ int main() {
 
     int res = number + number2;
 
+    float f_res = 55.43f;
+
     printf("%d\n", res);
 
     return 0;
