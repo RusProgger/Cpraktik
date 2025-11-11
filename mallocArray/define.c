@@ -13,6 +13,8 @@ int main() {
     printf("Вывод значения в файле define: %ld\n", number);
     printf("Вывод значения в файле ind: %lld\n", numberTwo);
 
+
+
     getchar();
 
     return 0;
