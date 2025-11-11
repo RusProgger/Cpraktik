@@ -9,10 +9,11 @@ int main() {
     setlocale(LC_ALL, "");
 
     extern long long int numberTwo;
+    extern long int num;
 
     printf("Вывод значения в файле define: %ld\n", number);
     printf("Вывод значения в файле ind: %lld\n", numberTwo);
-
+    printf("Вывод значения в файле ind: %lld\n", num);
 
 
     getchar();
