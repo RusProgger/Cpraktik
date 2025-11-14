@@ -16,7 +16,9 @@ int main() {
 
     // создадим цикл для прохода по массиву
 
-    for(int i = 0; i < 7; i++) {
+    printf("%s\n", symbols);
+
+    for(int i = 0; i < sizeof(symbols) / sizeof(symbols[0]); i++) {
         printf("%c", symbols[i]);
     }
 
