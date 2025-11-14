@@ -22,5 +22,7 @@ int main() {
         printf("%c", symbols[i]);
     }
 
+
+    
     return 0;
 }
