@@ -14,10 +14,12 @@ int main() {
     printf("%d\n", a);
     printf("%.5f\n", num_2);
 
+    printf("-------------------------\n");
+
+    printf("%1.1f\n", a + 0.0); // 10.0
 
 
-
-    printf("Hello, world!");
+    printf("Hello, world!\n");
     getchar();
     return 0;
 }
