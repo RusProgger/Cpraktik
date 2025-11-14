@@ -2,7 +2,7 @@
 
 int main() {
 
-    // Многомерный массив 1- строки 2 столбцы
+    // Многомерный массив 1- строки, 2 столбцы
 
     int arrs[2][2] = {
 
@@ -15,5 +15,7 @@ int main() {
     printf("Element array[1][0] = %c\n", arrs[1][0]);
     printf("Element array[1][0] = %c\n", arrs[1][1]);
 
+
+    getchar();
     return 0;
 }
