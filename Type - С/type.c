@@ -18,6 +18,8 @@ int main() {
 
     printf("%1.1f\n", a + 0.0); // 10.0
 
+    printf("%1.1f\n", b + (float)a); // 25.0
+
 
     printf("Hello, world!\n");
     getchar();
