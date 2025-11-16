@@ -49,9 +49,17 @@ int main() {
     char symbol[2][1] = {
         {'B'},
         {'K'}
+    };
+
+    for(int i = 0; i < 2; i++) {
+        for(int j = 0; j < 1; j++) {
+            printf("%c\n", symbol[i][j]);
+        }
+
+        printf("******************\n");
     }
 
-    
+
 
 
     getchar();
