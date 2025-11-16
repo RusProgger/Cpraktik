@@ -4,17 +4,19 @@ int main() {
 
     // file
 
-    char* name = "Hello, World!!";
+    char name[100];
+    scanf("%99s", name);
     FILE * files;
     files = fopen("file.txt", "w");
     if(files != NULL) {
         fputs(name, files);
+        // Закрытие файла
+
+        fclose(files);
+
+        printf("Txt file close.");
     }
 
-    // Закрытие файла
-
-    fclose(files);
-
-
+   
     return 0;
 }
