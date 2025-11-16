@@ -5,9 +5,11 @@ int main() {
     // file
 
     char name[100];
+
     scanf("%99s", name);
-    FILE * files;
-    files = fopen("file.txt", "w");
+
+    FILE * files = fopen("file.txt", "w");
+    
     if(files != NULL) {
         fputs(name, files);
         // Закрытие файла
@@ -17,6 +19,6 @@ int main() {
         printf("Txt file close.");
     }
 
-   
+    
     return 0;
 }
