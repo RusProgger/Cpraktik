@@ -44,6 +44,15 @@ int main() {
         printf("\n");
     }
 
+    printf("----------\n");
+
+    char symbol[2][1] = {
+        {'B'},
+        {'K'}
+    }
+
+    
+
 
     getchar();
     return 0;
