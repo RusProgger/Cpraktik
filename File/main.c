@@ -8,7 +8,7 @@ int main() {
 
     // scanf("%99s", name);
 
-    fgetc(name, sizeof(name), stdin);
+    fgets(name, sizeof(name), stdin);
 
 
     FILE * files = fopen("file.txt", "w");
