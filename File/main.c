@@ -17,6 +17,9 @@ int main() {
         fclose(files);
 
         printf("Txt file close.");
+    } else {
+        
+        printf("Error.");
     }
 
     
