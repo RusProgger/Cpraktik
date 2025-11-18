@@ -18,8 +18,8 @@ int main() {
 
         printf("Txt file close.");
     } else {
-        
-        printf("Error.");
+
+        printf("Error.\n");
     }
 
     
