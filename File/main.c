@@ -6,7 +6,10 @@ int main() {
 
     char name[100];
 
-    scanf("%99s", name);
+    // scanf("%99s", name);
+
+    fgetc(name, sizeof(name), stdin);
+
 
     FILE * files = fopen("file.txt", "w");
     
