@@ -67,8 +67,11 @@ int main() {
 
     // Вывод длинных строк
 
-    char text_user[51];
-    
+    char text_user[200];
+
+    fgets(text_user, sizeof(text_user), stdin);
+
+    printf("\n", text_user);
 
 
     getchar(); // задержка
