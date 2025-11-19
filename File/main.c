@@ -8,6 +8,7 @@ int main() {
 
     // scanf("%99s", name);
 
+    // Для длинных строк с пробелами
     fgets(name, sizeof(name), stdin);
 
 
