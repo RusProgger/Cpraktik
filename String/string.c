@@ -65,6 +65,10 @@ int main() {
     strcat(textInfo, " name is Alex!");
     printf("%s\n", textInfo);
 
+    // Вывод длинных строк
+
+    
+
 
     getchar(); // задержка
     return 0;
