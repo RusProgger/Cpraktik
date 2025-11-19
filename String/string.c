@@ -67,6 +67,7 @@ int main() {
 
     // Вывод длинных строк
 
+    char text_user[51];
     
 
 
