@@ -2,8 +2,10 @@
 
 int main() {
 
-    // Создаем константу с именем number
-    const int number;
+    // Создаем переменную с именем number
+
+    char number[256];
+    
     fgets(number, sizeof(number), stdin);
 
     FILE * f = fopen("fileNumber.txt", "a");
