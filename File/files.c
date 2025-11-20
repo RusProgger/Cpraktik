@@ -11,7 +11,12 @@ int main() {
     if(f != NULL) {
         fputs(number, f);
 
-        
+        // Закрываем файл
+
+        fclose(f);
+        printf("File add.");
+    } else {
+        printf("File is not add.");
     }
 
 
