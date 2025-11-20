@@ -5,10 +5,10 @@ int main() {
     // Создаем переменную с именем number
 
     char number[256];
-    
+
     fgets(number, sizeof(number), stdin);
 
-    FILE * f = fopen("fileNumber.txt", "a");
+    FILE * f = fopen("fileNumber.txt", "w");
 
     if(f != NULL) {
         fputs(number, f);
