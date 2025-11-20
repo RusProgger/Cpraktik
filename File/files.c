@@ -20,7 +20,7 @@ int main() {
         printf("File add.");
 
     } else {
-        
+        // выводим сообщение об ошибке.
         printf("File is not add.");
     }
 
