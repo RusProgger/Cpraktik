@@ -14,8 +14,13 @@ int main() {
         // Закрываем файл
 
         fclose(f);
+
+        // Выводим сообщение что файл добавлен
+
         printf("File add.");
+
     } else {
+        
         printf("File is not add.");
     }
 
