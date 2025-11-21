@@ -77,7 +77,7 @@ int main() {
     const char* textUs1 = "My name is";
     const char* textUs2 = "Alex";
 
-    
+    printf("%s %s\n", textUs1, textUs2);
 
 
     getchar(); // задержка
