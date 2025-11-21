@@ -74,6 +74,12 @@ int main() {
     printf("\n", text_user);
 
 
+    const char* textUs1 = "My name is";
+    const char* textUs2 = "Alex";
+
+    
+
+
     getchar(); // задержка
     return 0;
 }
