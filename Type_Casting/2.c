@@ -18,5 +18,6 @@ int main() {
     printf("Symbol: %c\n", symbolUser);
     printf("Symbol code: %d\n", symbolUser);
 
+    getchar();
     return 0;
 }
