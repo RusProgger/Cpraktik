@@ -20,10 +20,15 @@ int main() {
 
     // Обьявление переменных 
 
-    station_code = 'F';
-    station_number = 4;  
-    temperature = -5.5;   
-    pressure = 755.63;
+    // station_code = 'F';
+    // station_number = 4;  
+    // temperature = -5.5;   
+    // pressure = 755.63;
+
+    // Ввод от пользователя
+
+    scanf("%c", &station_code);
+    scanf("%d", &station_number);
 
     printf("|%c%d|%.2f|%.1f|", station_code, station_number, temperature, pressure);
 
