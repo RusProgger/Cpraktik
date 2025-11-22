@@ -10,6 +10,7 @@ int main() {
 
     extern long long int numberTwo;
     extern long int num;
+    extern long long number;
 
     printf("Вывод значения в файле define: %ld\n", number);
     printf("Вывод значения в файле ind: %lld\n", numberTwo);
