@@ -27,8 +27,10 @@ int main() {
 
     // Ввод от пользователя
 
-    scanf("%c", &station_code);
-    scanf("%d", &station_number);
+    scanf_s("%c", &station_code);
+    scanf_s("%d", &station_number);
+    scanf_s("%f", &temperature);
+    scanf_s("%lf", &pressure);
 
     printf("|%c%d|%.2f|%.1f|", station_code, station_number, temperature, pressure);
 
