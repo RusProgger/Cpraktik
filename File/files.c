@@ -5,9 +5,9 @@ int main() {
     // Создаем переменную с именем number
 
     char number[256];
-
+    // Запрашивает ввод от пользователя
     fgets(number, sizeof(number), stdin);
-
+    
     FILE * f = fopen("fileNumber.txt", "w");
 
     if(f != NULL) {
