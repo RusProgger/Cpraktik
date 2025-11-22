@@ -27,7 +27,7 @@ int main() {
 
     // Ввод от пользователя
 
-    scanf_s("%c", &station_code);
+    scanf_s("%c", &station_code, 1);
     scanf_s("%d", &station_number);
     scanf_s("%f", &temperature);
     scanf_s("%lf", &pressure);
