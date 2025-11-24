@@ -21,5 +21,7 @@ int main(void) {
     printf("%04d-%02d-%02dT%02d:%02d:%02d%+03d\n",
            year, month, day, hours, minutes, seconds, utc_offset);
 
+    // Задержка        
+
     return 0;
 }
