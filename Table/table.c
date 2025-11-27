@@ -5,7 +5,7 @@
 int main() {
 
     int tableN;
-    const int tableMax = 4;
+    const int tableMax = 5;
 
     scanf("%d", &tableN);
 
