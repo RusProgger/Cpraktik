@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+// Функция для вывода Hello World!!
+
+void Hello() {
+    puts("Hello World, is a function message");
+}
 
 
 int main() {
