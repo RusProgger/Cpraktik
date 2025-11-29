@@ -20,6 +20,7 @@ int main() {
     // вывод сообщения через функцию 
 
     Hello();
-    Num(10, 50);
+    int resNum = Num(10, 50);
+    printf("%d", resNum);
     return 0;
 }
