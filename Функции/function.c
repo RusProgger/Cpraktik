@@ -6,6 +6,11 @@ void Hello() {
     puts("Hello World, is a function message");
 }
 
+// добавляем int
+
+int Num(int a, int b) {
+    return a, b;
+}
 
 int main() {
 
