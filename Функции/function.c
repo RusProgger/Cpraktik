@@ -12,6 +12,15 @@ int Num(int a, int b) {
     return a + b;
 }
 
+
+// вывод чисел 
+
+void intNumber(int a, int b) {
+    printf("%d\n", a );
+    printf("%d\n", b);
+}
+
+
 int main() {
 
     puts("Hello, world!!");
@@ -22,5 +31,7 @@ int main() {
     Hello();
     int resNum = Num(10, 50);
     printf("Num - %d", resNum);
+
+    // вывод
     return 0;
 }
