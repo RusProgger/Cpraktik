@@ -16,7 +16,7 @@ int Num(int a, int b) {
 // вывод чисел 
 
 void intNumber(int a, int b) {
-    printf("%d\n", a );
+    printf("intNumber A = %d:\n", a );
     printf("%d\n", b);
 }
 
