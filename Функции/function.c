@@ -30,8 +30,9 @@ int main() {
 
     Hello();
     int resNum = Num(10, 50);
-    printf("Num - %d", resNum);
+    printf("Num - %d\n", resNum);
 
-    // вывод
+    // вывод функции intNumber
+    intNumber(10, 55);
     return 0;
 }
