@@ -10,8 +10,10 @@ void messageNumber(int a, int b, int c, int* outA, int* outB, int* outC) {
 
 int main() {
 
+    int a, b, c;
 
-
+    messageNumber(10, 55, 40, &a, &b, &c);
+    
 
     return 0;
 }
