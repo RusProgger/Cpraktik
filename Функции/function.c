@@ -21,6 +21,6 @@ int main() {
 
     Hello();
     int resNum = Num(10, 50);
-    printf("%d", resNum);
+    printf("Num - %d", resNum);
     return 0;
 }
