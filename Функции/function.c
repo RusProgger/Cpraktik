@@ -34,5 +34,7 @@ int main() {
 
     // вывод функции intNumber
     intNumber(10, 55);
+    intNumber(11, 88);
+    intNumber(15, 155);
     return 0;
 }
