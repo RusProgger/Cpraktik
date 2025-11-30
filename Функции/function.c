@@ -17,7 +17,7 @@ int Num(int a, int b) {
 
 void intNumber(int a, int b) {
     printf("intNumber A = %d:\n", a );
-    printf("%d\n", b);
+    printf("intNumber B = %d:\n", b);
 }
 
 
