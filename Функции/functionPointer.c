@@ -22,7 +22,9 @@ int main() {
     printf("%d\n", c);
 
     int res = add(10, 55);
-    // 
+    // вывод функции add
+
+    
 
     return 0;
 }
