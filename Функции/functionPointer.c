@@ -24,7 +24,7 @@ int main() {
     int res = add(10, 55);
     // вывод функции add
 
-    
+    printf("Output function add: %d\n", res);
 
     return 0;
 }
