@@ -6,6 +6,10 @@ void messageNumber(int a, int b, int c, int* outA, int* outB, int* outC) {
     *outC = c;
 }
 
+int add(int a, int b) {
+    return a + b;
+}
+
 
 
 int main() {
@@ -16,6 +20,9 @@ int main() {
     printf("%d\n", a);
     printf("%d\n", b);
     printf("%d\n", c);
+
+    int res = add(10, 55);
+    // 
 
     return 0;
 }
