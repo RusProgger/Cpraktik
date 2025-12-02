@@ -34,7 +34,8 @@ int main() {
 
     // float function
 
-    
+    float res_fl = fl(55.3, 14.5);
+    printf("Output function fl: %.1f\n", res_fl);
 
     return 0;
 }
