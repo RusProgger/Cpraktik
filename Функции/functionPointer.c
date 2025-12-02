@@ -17,6 +17,7 @@ int main() {
     int a, b, c;
 
     messageNumber(10, 55, 40, &a, &b, &c);
+    messageNumber(100, 155, 490, &a, &b, &c);
     printf("%d\n", a);
     printf("%d\n", b);
     printf("%d\n", c);
