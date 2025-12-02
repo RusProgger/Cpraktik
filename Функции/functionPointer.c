@@ -11,6 +11,11 @@ int add(int a, int b) {
 }
 
 
+float fl(float d, float c) {
+    return d / c;
+}
+
+
 
 int main() {
 
