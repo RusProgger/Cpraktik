@@ -19,7 +19,7 @@ float fl(float d, float c) {
 
 int main() {
 
-    int a, b, c;
+    int a, b, c, d;
 
     messageNumber(10, 55, 40, &a, &b, &c);
     messageNumber(100, 155, 490, &a, &b, &c);
@@ -31,6 +31,10 @@ int main() {
     // вывод функции add
 
     printf("Output function add: %d\n", res);
+
+    // float function
+
+    
 
     return 0;
 }
