@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+// либо подключить библиотеку (так лучше и эффективней)
+#include <stdbool.h>
 
 
 int main() {
