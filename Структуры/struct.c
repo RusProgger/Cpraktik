@@ -20,7 +20,7 @@ int main() {
     // вывод структуры
 
     printf("Name: %s\n", p1.name);
-    printf("Age: %d\n", p1.age);
+    printf("Age: %u\n", p1.age);
 
     printf("-----------------------\n");
 
