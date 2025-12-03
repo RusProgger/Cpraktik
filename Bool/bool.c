@@ -12,9 +12,9 @@ int main() {
 
     // Проверим пользователь женат?
 
-    bool isMarried = true; // false, пользователь не женат.
+    bool isMarried = false; // false, пользователь не женат.
 
-    if(isMarried == true) {
+    if(isMarried) {
         puts("User married true");
     } else {
         puts("User married false");
