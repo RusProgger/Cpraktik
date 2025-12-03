@@ -20,7 +20,7 @@ int main() {
 
     Person* person_ptr = &person;
 
-    
+    printf("Name point: %s\n", person_ptr ->name);
 
 
     return 0;
