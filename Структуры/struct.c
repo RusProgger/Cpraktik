@@ -22,5 +22,16 @@ int main() {
     printf("Name: %s\n", p1.name);
     printf("Age: %d\n", p1.age);
 
+    printf("-----------------------\n");
+
+    // Выводим имя через указатель
+
+    printf("Name pointer: %s\n", pt->name);
+
+    // Выводим имя через разыменование
+
+    printf("Name*: %s\n", (*pt).name);
+
+
     return 0;
 }
