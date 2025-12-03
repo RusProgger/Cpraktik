@@ -21,7 +21,7 @@ int main() {
     Person* person_ptr = &person;
 
     printf("Name point: %s\n", person_ptr ->name);
-
+    printf("Age point: %u\n", person_ptr ->age);
 
     return 0;
 }
