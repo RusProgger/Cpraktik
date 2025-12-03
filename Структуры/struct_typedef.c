@@ -13,7 +13,14 @@ typedef struct Person {
 
 int main() {
 
+    Person person = {"Alex", 32};
 
+    printf("Name: %s\n", person.name);
+    printf("Age: %u\n", person.age);
+
+    Person* person_ptr = &person;
+
+    
 
 
     return 0;
