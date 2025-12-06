@@ -23,8 +23,10 @@ int main() {
         // проверка выделилась ли память 
 
         if(numberUser == NULL) {
+            
             printf("Error memory...\n");
             return 1;
+
         } else {
             printf("Enter number: ");
             scanf_s("%d", numberUser);
