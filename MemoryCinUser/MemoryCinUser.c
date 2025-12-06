@@ -6,7 +6,9 @@
 
 int main() {
 
-
+    int userNumber;
+    printf("User number memory byte: ");
+    scanf_s("%d", &userNumber);
 
     return 0;
 }
