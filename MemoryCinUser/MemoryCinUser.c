@@ -19,8 +19,23 @@ int main() {
     } else {
         // если все хорошо выделяем память 
         int* numberUser = malloc(userNumber * sizeof(int));
+
+        // проверка выделилась ли память 
+
+        if(numberUser == NULL) {
+            printf("Error memory...\n");
+            return 1;
+        } else {
+            printf("Enter number: ");
+            scanf_s("%d", numberUser);
+            printf("Memory number: %d\n", *numberUser);
+
+            // освобождаем память
+
+            free(numberUser);
+        }
     }
-    
+
 
     return 0;
 }
