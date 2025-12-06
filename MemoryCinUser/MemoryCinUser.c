@@ -12,11 +12,11 @@ int main() {
     
     // проверка, если памяти выделено больше
     if(userNumber > MAX_SIZE_USER) {
-        printf("Memory error. Big number.");
+        printf("Memory error. Too big number.\n");
         return 1;
     } else {
         // если все хорошо выделяем память 
-        
+        int* numberUser = malloc(userNumber * sizeof(int));
     }
 
     return 0;
