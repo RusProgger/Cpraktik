@@ -4,12 +4,12 @@
 int main() {
 
     for(int i = 1; i <= 5; i++) {
-        Sleep(1000);
-        printf("%d\n", i);
-        fflush(stdout); // Очистка буфера 
+        printf("\r   \r%d", i); //  \r — вернуть курсор в начало строки
+        fflush(stdout); // Очистка буфера
+        Sleep(1000); // Задержка вывода на 1 секунду
     }
 
-    puts("cycle exit...");
+    puts("\nCycle exit...");
 
     getchar();
     return 0;
