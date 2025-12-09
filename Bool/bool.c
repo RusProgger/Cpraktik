@@ -14,7 +14,6 @@ int main() {
 
     bool isMarried = false; // false, пользователь не женат.
 
-
     if(isMarried) {
         puts("User married true");
     } else {
@@ -22,8 +21,6 @@ int main() {
     }
 
     printf("10 > 2: %s\n", (10 > 2) ? "true" : "false");
-
-
 
     printf("----------------\n");
     return 0;
