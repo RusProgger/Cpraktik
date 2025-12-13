@@ -15,8 +15,17 @@ int main() {
     // второй цикл 
 
     int number = 0;
-
+    printf("Input number: ");
     scanf_s("%d", &number);
+
+    for(int i = 0; i < number; i++) {
+        if(i == 100) {
+            break;
+        }
+
+        
+    }
+
     printf("\nDone....");
 
     return 0;
