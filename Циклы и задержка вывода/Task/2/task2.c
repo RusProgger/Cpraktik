@@ -15,7 +15,7 @@ int main() {
     // второй цикл 
 
     int number = 0;
-    printf("Input number: ");
+    printf("\nInput number: ");
     scanf_s("%d", &number);
 
     for(int i = 0; i < number; i++) {
@@ -23,7 +23,7 @@ int main() {
             break;
         }
 
-        
+        printf("%d\n", i);
     }
 
     printf("\nDone....");
