@@ -15,8 +15,8 @@ int main() {
     // второй цикл 
 
     int number = 0;
-    
 
+    scanf_s("%d", &number);
     printf("\nDone....");
 
     return 0;
