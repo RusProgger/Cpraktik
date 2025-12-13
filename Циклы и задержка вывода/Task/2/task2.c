@@ -3,7 +3,7 @@
 
 int main() {
 
-    for(int time = 10; time >= 0; time--) {
+    for(int time = 3; time >= 0; time--) {
         printf("\rStart: %2d ", time);
         // очистка буфера 
         fflush(stdout);
