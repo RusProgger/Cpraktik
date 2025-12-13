@@ -14,6 +14,7 @@ int main() {
 
     // второй цикл 
 
+    int number = 0;
     
 
     printf("\nDone....");
