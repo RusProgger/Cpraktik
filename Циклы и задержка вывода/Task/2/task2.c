@@ -12,6 +12,10 @@ int main() {
         Sleep(1000);
     }
 
+    // второй цикл 
+
+    
+
     printf("\nDone....");
 
     return 0;
