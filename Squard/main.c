@@ -4,7 +4,14 @@
 
 int main() {
 
+    int size, i, j;
 
+    printf("Input number: ");
+    scanf_s("%d", &size);
+
+    for(i = 0; i < size; i++) {
+        //
+    }
 
     getchar();
     return 0;
