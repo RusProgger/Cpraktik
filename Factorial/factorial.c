@@ -20,7 +20,14 @@ int main() {
 
     // Ввод пользователя
     printf("Enter number: ");
-    scanf_s("%d", &factor_number);
+
+    // Проверка условий если пользователь ввел не число
+
+    if(scanf_s("%d", &factor_number) != 1) {
+        
+    }
+
+    // scanf_s("%d", &factor_number);
 
     int result_factorial = Fact(factor_number);
 
