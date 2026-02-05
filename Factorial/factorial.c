@@ -24,7 +24,8 @@ int main() {
     // Проверка условий если пользователь ввел не число
 
     if(scanf_s("%d", &factor_number) != 1) {
-        
+        puts("Sorry. It's not number...");
+        return 1;
     }
 
     // scanf_s("%d", &factor_number);
