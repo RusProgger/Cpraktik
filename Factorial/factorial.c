@@ -24,7 +24,9 @@ int main() {
     printf("Enter number: ");
     scanf_s("%d", &factor_number);
 
-    printf("%d! = %d\n", factor_number, Fact(factor_number));
+    int result_factorial = Fact(factor_number);
+
+    printf("%d! = %d\n", factor_number, result_factorial);
     getchar();
     return 0;
 }
