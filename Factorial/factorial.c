@@ -13,7 +13,6 @@ int Fact(int n) {
     }
 
     return fact_res;
-    
 }
 
 int main() {
