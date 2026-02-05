@@ -4,8 +4,15 @@
 
 
 // Реализовать функцию 
-int Fact() {
+int Fact(int n) {
 
+    int fact_res = 1;
+
+    for(int i = 1; i <= n; i++ ) {
+        fact_res *= i;
+    }
+
+    return fact_res;
     
 }
 
@@ -17,7 +24,7 @@ int main() {
     printf("Enter number: ");
     scanf_s("%d", &factor_number);
 
-
+    printf("%d! = %d\n", factor_number, Fact(factor_number));
     getchar();
     return 0;
 }
