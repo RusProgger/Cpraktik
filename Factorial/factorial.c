@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 
-
 // Реализовать функцию 
 int Fact(int n) {
 
