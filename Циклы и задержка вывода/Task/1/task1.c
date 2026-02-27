@@ -10,5 +10,6 @@ int main() {
         Sleep(1000);
     }
 
+    getchar();
     return 0;
 }
