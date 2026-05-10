@@ -9,7 +9,7 @@ int main() {
 
     // Реализация условий
 
-    if(age > 0 && age <= 14) {
+    if(age >= 0 && age <= 14) {
         printf("Child: %d", age);
     } else if(age >= 15 && age <= 18) {
         printf("Teenager: %d", age);
