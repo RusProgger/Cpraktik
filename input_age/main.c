@@ -8,7 +8,10 @@ int main() {
     scanf_s("%d", &age);
 
     // Реализация условий
-    
+
+    if(age > 0 && age < 18) {
+        printf("You are very young. %d", age);
+    } 
 
 
 
