@@ -20,10 +20,8 @@ int main() {
     } else if (age >= 63 && age <= 100) {
         printf("Old: %d", age);
     } else {
-        
+        printf("There is no such age.");
     }
-
-
 
     getchar();
     return 0;
