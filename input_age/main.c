@@ -32,5 +32,8 @@ int main() {
         printf("Invalid age.");
     }
 
+    // console pause
+    getchar();
+
     return 0;
 }
