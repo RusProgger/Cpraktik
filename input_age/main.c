@@ -4,7 +4,14 @@ int main() {
     unsigned int age;
 
     printf("Enter age: ");
-    scanf_s("%u", &age);
+    // scanf_s("%u", &age);
+
+    // Проверка на ввод
+
+    if(scanf_s("%u", &age) != 1) {
+        printf("Invalid input: not a number.\n");
+        return 1;
+    }
 
     if (age <= 14) {
         printf("Child: %u", age);
