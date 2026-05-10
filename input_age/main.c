@@ -7,7 +7,9 @@ int main() {
     printf("Enter age: ");
     scanf_s("%d", &age);
 
+    // Реализация условий
     
+
 
 
     getchar();
