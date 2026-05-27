@@ -16,5 +16,8 @@ int main() {
         printf("\n");
     }
 
+
+    // pause
+    
     return 0;
 }
