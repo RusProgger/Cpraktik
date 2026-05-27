@@ -10,8 +10,10 @@ int main() {
 
     for(int i = 0; i < square_size; i++) {
         for(int j = 0; j < square_size; j++) {
-            
+            printf("*");
         }
+
+        
     }
 
     return 0;
