@@ -6,7 +6,7 @@ int main() {
 
     int square_size;
     printf("Enter size square: ");
-    
+    scanf_s("%d", &square_size);
 
     return 0;
 }
