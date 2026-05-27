@@ -8,5 +8,11 @@ int main() {
     printf("Enter size square: ");
     scanf_s("%d", &square_size);
 
+    for(int i = 0; i < square_size; i++) {
+        for(int j = 0; j < square_size; j++) {
+            
+        }
+    }
+
     return 0;
 }
