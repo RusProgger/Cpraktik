@@ -5,6 +5,7 @@
 int main() {
 
     int square_size;
+    printf("Enter size square: ");
     
 
     return 0;
