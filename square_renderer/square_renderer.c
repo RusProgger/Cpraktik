@@ -18,6 +18,7 @@ int main() {
 
 
     // pause
-    
+    printf("Press Enter to exit...");
+    getchar();
     return 0;
 }
