@@ -4,7 +4,8 @@
 
 int main() {
 
-
+    int square_size;
     
+
     return 0;
 }
