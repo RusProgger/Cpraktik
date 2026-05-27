@@ -4,12 +4,12 @@
 
 int main() {
 
-    int square_size;
+    int squareSize;
     printf("Enter size square: ");
-    scanf_s("%d", &square_size);
+    scanf_s("%d", &squareSize);
 
-    for(int i = 0; i < square_size; i++) {
-        for(int j = 0; j < square_size; j++) {
+    for(int i = 0; i < squareSize; i++) {
+        for(int j = 0; j < squareSize; j++) {
             printf("*");
         }
 
