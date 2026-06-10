@@ -3,6 +3,8 @@
 
 int main() {
 
+    // Работает но не правильно!
+
     printf("MemoryVolume char: %d\n", sizeof(char));
     printf("MemoryVolume short: %d\n", sizeof(short));
     printf("MemoryVolume float: %d\n", sizeof(float));
