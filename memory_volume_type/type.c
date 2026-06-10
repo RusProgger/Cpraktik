@@ -13,6 +13,9 @@ int main() {
 
     printf("\n-----------------------\n");
 
+
+    // Более правильный вариант 
+    
     printf("MemoryVolume char: %zu\n", sizeof(char));
     printf("MemoryVolume short: %zu\n", sizeof(short));
     printf("MemoryVolume int: %zu\n", sizeof(int));
