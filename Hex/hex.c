@@ -8,10 +8,10 @@ int main() {
     printf("Enter number: ");
     scanf_s("%d", &number);
 
+    // clear buffer
     while ((symbol = getchar()) != '\n' && symbol != EOF);
 
-
-    // проверка если число меньше 0, то выводим сообщение о ошибке: 
+   // If number is negative, print error message
 
     if(number < 0) {
         printf("Error. Negative number.");
