@@ -15,11 +15,9 @@ int main() {
 
     if(number < 0) {
         printf("Error. Negative number.");
-        return 1;
+    } else {
+        printf("Number: %#08x\n", number);
     }
-
-    printf("Number: %#08x\n", number);
-
 
 
     // pause 
