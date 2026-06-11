@@ -13,5 +13,7 @@ int main() {
         return 1;
     }
 
+    printf("Number: %#08x\n", number);
+
     return 0;
 }
