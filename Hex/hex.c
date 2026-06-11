@@ -14,7 +14,7 @@ int main() {
    // If number is negative, print error message
 
     if(number < 0) {
-        printf("Error. Negative number.");
+        printf("Error. Negative number.\n");
     } else {
         printf("Number: %#08x\n", number);
     }
