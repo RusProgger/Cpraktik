@@ -6,7 +6,12 @@ int main() {
     printf("Enter number: ");
     scanf_s("%d", &number);
 
-    
+    // проверка если число меньше 0, то выводим сообщение о ошибке: 
+
+    if(number < 0) {
+        printf("Error. Negative number.")
+        return 1;
+    }
 
     return 0;
 }
