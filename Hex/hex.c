@@ -17,6 +17,8 @@ int main() {
         printf("Error. Negative number.\n");
     } else {
         printf("Number: %#08x\n", number);
+        // Add adress
+        printf("Adress: %p\n", (void *)&number);
     }
 
 
