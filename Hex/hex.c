@@ -8,6 +8,8 @@ int main() {
     printf("Enter number: ");
     // scanf_s("%d", &number);
 
+    // Validate user input
+
     if(scanf_s("%d", &number) != 1) {
         printf("Invalid error.\n");
         return 1;
