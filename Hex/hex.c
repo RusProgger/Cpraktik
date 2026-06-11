@@ -15,5 +15,9 @@ int main() {
 
     printf("Number: %#08x\n", number);
 
+    // pause 
+
+    getchar();
+
     return 0;
 }
