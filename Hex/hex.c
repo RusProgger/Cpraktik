@@ -25,7 +25,7 @@ int main() {
     } else {
         printf("Number: %#08x\n", number);
         // Add adress
-        printf("Adress: %p\n", (void *)&number);
+        printf("Address: %p\n", (void *)&number);
     }
 
 
