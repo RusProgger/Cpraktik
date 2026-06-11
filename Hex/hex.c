@@ -6,7 +6,12 @@ int main() {
     int symbol;
 
     printf("Enter number: ");
-    scanf_s("%d", &number);
+    // scanf_s("%d", &number);
+
+    if(scanf_s("%d", &number) != 1) {
+        printf("Invalid error.\n");
+        return 1;
+    }
 
     // clear buffer
     while ((symbol = getchar()) != '\n' && symbol != EOF);
