@@ -15,13 +15,22 @@ int main() {
 
     printf("\r");
     for(int i = 0; i < 30; i++) {
-        Sleep(500);
+        Sleep(200);
         printf("\xDB");
     }
 
 
     printf("\n-------------------------------------\n");
     
+    for(;;) {
+        printf("-");
+        Sleep(300);
+        printf("\\");
+        Sleep(300);
+        printf("|");
+        Sleep(300);
+        printf("/");
+    }
     
  
     return 0;
