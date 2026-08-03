@@ -15,7 +15,7 @@ int main() {
 
     printf("\r");
     for(int i = 0; i < 30; i++) {
-        Sleep(200);
+        Sleep(150);
         printf("\xDB");
     }
 
