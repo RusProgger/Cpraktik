@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <windows.h>
 
 // Используем таблицу символов https://www.industrialnets.ru/files/misc/ascii.pdf
 
@@ -13,7 +14,12 @@ int main() {
     }
 
     printf("\r");
-    printf("\xDB");
+    for(int i = 0; i < 30; i++) {
+        Sleep(500);
+        printf("\xDB");
+    }
+    
+    
  
     return 0;
 }
