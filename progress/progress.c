@@ -8,7 +8,12 @@ int main() {
     for(int i = 0; i < 30; i++) {
         putchar(176);
         // printf("%c", 176);
+        // вывод в 16-ричной системе числения
+        //printf("\xb0");
     }
+
+    printf("\r");
+    printf("\xDB");
  
     return 0;
 }
