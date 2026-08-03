@@ -23,15 +23,15 @@ int main() {
     printf("\n-------------------------------------\n");
     
     for(;;) {
-        printf("-");
         Sleep(300);
-        printf("\\");
+        printf("\b-");
         Sleep(300);
-        printf("|");
+        printf("\b\\");
         Sleep(300);
-        printf("/");
+        printf("\b|");
+        Sleep(300);
+        printf("\b/");
     }
     
- 
     return 0;
 }
