@@ -29,7 +29,7 @@ int main() {
 
     char text[51] = "Hello";
 
-    printf("Длина строки: %lu\n", strlen(text));
+    printf("Длина строки: %llu\n", strlen(text));
 
 
     // задача 2 Змена последнего символа. 
@@ -71,13 +71,18 @@ int main() {
 
     fgets(text_user, sizeof(text_user), stdin);
 
-    printf("\n", text_user);
+    printf("%s", text_user);
 
 
     const char* textUs1 = "My name is";
     const char* textUs2 = "Alex";
 
     printf("%s %s\n", textUs1, textUs2);
+
+    char names[] = "Alex, Ivan";
+    for(int i = 0; i < sizeof(names); i++) {
+        printf("%c", names[i]);
+    }
 
 
     getchar(); // задержка
