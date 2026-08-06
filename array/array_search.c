@@ -20,6 +20,8 @@ int main() {
         }
     }
 
+
+    // условие
     if(index) {
         printf("Found!\n");
     } else {
