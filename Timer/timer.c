@@ -2,7 +2,7 @@
 #include <windows.h>
 
 int main() {
-    int timer;
+    int timer; // таймер
     printf("Enter timer of number: ");
     scanf("%d", &timer);
 
