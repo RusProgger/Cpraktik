@@ -8,22 +8,22 @@ int main() {
 
     const char* filename = "data.txt";
     // Открываем файл
-    FILE* files = fopen(filename, "w");
+    // FILE* files = fopen(filename, "w");
 
-    // проверка
-    if(files) {
-        // запись в файл
-        int res = putc('f', files);
-        printf("White symbol: %c\n", res);
-        printf("White code: %d\n", res);
-        fclose(files);
+    // // проверка
+    // if(files) {
+    //     // запись в файл
+    //     int res = putc('f', files);
+    //     printf("White symbol: %c\n", res);
+    //     printf("White code: %d\n", res);
+    //     fclose(files);
 
-    } else {
-        printf("Error! while file opening");
-    }
+    // } else {
+    //     printf("Error! while file opening");
+    // }
         
     // считывание файла но уже в режиме чтения
-    files = fopen(filename, "r");
+   FILE* files = fopen(filename, "r");
     if(files) {
         int res = getc(files);
         printf("Read symbol: %c\n", res);
