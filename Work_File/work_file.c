@@ -21,6 +21,9 @@ int main() {
         printf("Error! while file opening");
     }
         
+    // считывание файла
+
+    
    
     return 0;
 }
