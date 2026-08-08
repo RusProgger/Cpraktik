@@ -11,10 +11,16 @@ int main() {
     FILE* files = fopen(filename, "w");
 
     // проверка
+    if(files) {
+        int res = putc('f', files);
+        printf("Enter symbol: %c\n", res);
+        printf("Enter code: %d\n", res);
+        fclose(files);
 
-    if(files == NULL)
+    } else {
         printf("Error! while file opening");
-    // закрытие файла
-    fclose(files);
+    }
+        
+   
     return 0;
 }
