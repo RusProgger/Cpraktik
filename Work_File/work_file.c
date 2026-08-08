@@ -25,7 +25,7 @@ int main() {
     // считывание файла но уже в режиме чтения
 
 
-    files = fopen(files, "r");
+    files = fopen(filename, "r");
     if(files) {
         int res = putc('f', files);
         printf("Read symbol: %c\n", res);
