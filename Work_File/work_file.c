@@ -12,18 +12,28 @@ int main() {
 
     // проверка
     if(files) {
+        // запись в файл
         int res = putc('f', files);
-        printf("Enter symbol: %c\n", res);
-        printf("Enter code: %d\n", res);
+        printf("White symbol: %c\n", res);
+        printf("White code: %d\n", res);
         fclose(files);
 
     } else {
         printf("Error! while file opening");
     }
         
-    // считывание файла
+    // считывание файла но уже в режиме чтения
 
-    
+
+    files = fopen(files, "r");
+    if(files) {
+        int res = putc('f', files);
+        printf("Read symbol: %c\n", res);
+        printf("Read code: %d\n", res);
+        fclose(files);
+    } else {
+         printf("Error read file!!!");
+    }
    
     return 0;
 }
