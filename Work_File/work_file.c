@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// int putc(int c, FILE* stream);
+// int getc(FILE* stream);
+
 
 int main() {
 
