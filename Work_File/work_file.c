@@ -19,7 +19,7 @@ int main() {
     //     fclose(files);
 
     // } else {
-    //     printf("Error! while file opening");
+    //     printf("Error! while file opening"); // если ошибка открытия файла
     // }
         
     // считывание файла но уже в режиме чтения
