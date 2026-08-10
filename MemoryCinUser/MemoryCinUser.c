@@ -10,7 +10,7 @@ int main() {
     printf("User number memory byte: ");
     scanf_s("%d", &userNumber);
     
-    // проверка, если памяти выделено больше
+    // проверка, если памяти выделено больше, Max_INT
 
     if(userNumber > MAX_INT_COUNT / sizeof(int)) {
         printf("Memory error. Too big number.\n");
