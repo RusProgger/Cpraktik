@@ -32,6 +32,6 @@ int main() {
 
     printf("Name*: %s\n", (*pt).name);
 
-
+    getchar();
     return 0;
 }
