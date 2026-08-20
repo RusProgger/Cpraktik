@@ -8,7 +8,7 @@ int main() {
         printf("Array %d\n", arrs[i]);
     }
 
-    
+    printf("\nEnter to exit...");
 
     getchar();
     return 0;
