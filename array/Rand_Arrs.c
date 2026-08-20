@@ -15,5 +15,17 @@ int main() {
         printf("Array random: %d\n", arrsRandom[i]);
     }
 
+    // уменьшение массива на 1
+
+    for(int i = 0; i < sizeof(arrsRandom) / sizeof(arrsRandom[0]); i++) {
+        arrsRandom[i] = arrsRandom[i] - 1;
+    }
+
+    // вывод уже измененного массива 
+
+    for(int i = 0; i < sizeof(arrsRandom) / sizeof(arrsRandom[0]); i++) {
+        printf("Array modified: %d\n", arrsRandom[i]);
+    }
+
     return 0;
 }
