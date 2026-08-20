@@ -8,6 +8,8 @@ int main() {
         printf("Array %d\n", arrs[i]);
     }
 
+
+    // уменьшаем елементы массива на 1
     for(int i = 0; i < sizeof(arrs) / sizeof(arrs[0]); i++) {
         arrs[i]--;
     }
