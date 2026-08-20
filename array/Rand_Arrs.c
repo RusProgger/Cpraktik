@@ -11,7 +11,7 @@ int main() {
         arrsRandom[i] = rand() % 50 + 1;
     }
 
-     for(int i = 0; i < sizeof(arrsRandom) / sizeof(arrsRandom[0]); i++) {
+    for(int i = 0; i < sizeof(arrsRandom) / sizeof(arrsRandom[0]); i++) {
         printf("Array random: %d\n", arrsRandom[i]);
     }
 
