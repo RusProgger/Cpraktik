@@ -13,7 +13,6 @@ int main() {
         arrs[i]--;
     }
 
-
     // выводим уже измененный массив
     for(int i = 0; i < sizeof(arrs) / sizeof(arrs[0]); i++) {
         
