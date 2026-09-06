@@ -25,14 +25,14 @@ int main() {
     float mass;
     float summa;
 
-    do {}
-    printf("Enter mass watermelons: ");
-    scanf_s("%f", &mass);
+    do {
+        printf("Enter mass watermelons: ");
+        scanf_s("%f", &mass);
 
-
-
-
-
+        summa = summa + mass;
+    }while(mass != 0);
+    
+    printf("Summa waterlemons: %f\n", summa);
 
     getchar();
     return 0;
