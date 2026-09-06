@@ -27,10 +27,17 @@ int main() {
 
     do {
         printf("Enter mass watermelons: ");
-        scanf_s("%f", &mass);
+        if(scanf_s("%f", &mass) != 1) {
+            printf("Error! Enter a number.\n");
+
+            while(getchar() != '\n') {
+            }
+
+            continue;
+        }
 
         summa = summa + mass;
-    }while(mass != 0);
+    } while(mass != 0);
     
     printf("Summa waterlemons: %.1f\n", summa);
 
