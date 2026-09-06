@@ -22,7 +22,14 @@
 
 int main() {
 
-    
+    float mass;
+    float summa;
+
+    do {}
+    printf("Enter mass watermelons: ");
+    scanf_s("%f", &mass);
+
+
 
 
 
