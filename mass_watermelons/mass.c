@@ -22,8 +22,8 @@
 
 int main() {
 
-    float mass;
-    float summa;
+    float mass = 0;
+    float summa = 0;
 
     do {
         printf("Enter mass watermelons: ");
