@@ -32,7 +32,7 @@ int main() {
         summa = summa + mass;
     }while(mass != 0);
     
-    printf("Summa waterlemons: %f\n", summa);
+    printf("Summa waterlemons: %.1f\n", summa);
 
     getchar();
     return 0;
