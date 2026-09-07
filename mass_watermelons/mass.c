@@ -20,10 +20,16 @@
 
 #include <stdio.h>
 
+void menu() {
+    printf("\n------ Menu: ------\nExit - 0:\n");
+}
+
 int main() {
 
     float mass = 0;
     float summa = 0;
+
+    menu();
 
     do {
         printf("Enter mass watermelons: ");
